@@ -7,7 +7,11 @@ export default defineConfig({
   description: "C语言学习教程，包含基础语法和数据结构",
   markdown: {
     breaks: true,
-    html: false
+    html: false,
+    attrs: {
+      leftDelimiter: '<%=',
+      rightDelimiter: '%>'
+    }
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
