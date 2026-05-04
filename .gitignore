@@ -4,6 +4,7 @@ node_modules/
 # 构建输出
 dist/
 .vuepress/dist/
+docs/.vitepress/dist/
 
 # VitePress 缓存
 docs/.vitepress/cache/

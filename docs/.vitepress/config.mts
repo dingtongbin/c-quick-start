@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import escapeBraces from './plugins/escapeBraces.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,9 +9,8 @@ export default defineConfig({
   markdown: {
     breaks: true,
     html: false,
-    attrs: {
-      leftDelimiter: '<%=',
-      rightDelimiter: '%>'
+    config(md) {
+      md.use(escapeBraces)
     }
   },
   themeConfig: {
