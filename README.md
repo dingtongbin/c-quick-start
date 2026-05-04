@@ -11,3 +11,6 @@
 
 - VitePress 文档框架
 - Markdown 编写格式
+
+## 访问路径
+[https://dingtongbin.github.io/c-quick-start/](https://dingtongbin.github.io/c-quick-start/)
