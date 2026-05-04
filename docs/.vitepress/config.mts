@@ -3,7 +3,7 @@ import escapeBraces from './plugins/escapeBraces.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/c-quick-start/',
+  base: process.env.NODE_ENV === 'production' ? '/c-quick-start/' : '/',
   title: "C语言快速教程",
   description: "C语言学习教程，包含基础语法和数据结构",
   markdown: {
