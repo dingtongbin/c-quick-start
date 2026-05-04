@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/c-quick-start/',
   title: "C语言快速教程",
   description: "C语言学习教程，包含基础语法和数据结构",
   markdown: {
